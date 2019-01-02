@@ -216,5 +216,17 @@ DATASETS = {
             _DATA_DIR + '/VOC2012/annotations/voc_2012_trainval.json',
         DEVKIT_DIR:
             _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'icdar_2015_train': {
+        IM_DIR:
+            _DATA_DIR + '/icdar15/train',
+        ANN_FN:
+            _DATA_DIR + '/icdar15/annotations/anno_train_icdar15.json'
+    },
+    'icdar_2015_train': {
+        IM_DIR:
+            _DATA_DIR + '/icdar15/test',
+        ANN_FN:
+            _DATA_DIR + '/icdar15/annotations/anno_test_icdar15.json'
     }
 }
